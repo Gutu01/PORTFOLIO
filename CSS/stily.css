@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('menu.css');
+
+
+/* Variáveis de cor do sistema. */
+:root{
+    --cor-primaria-1: #a7ebf2 ;
+    --cor-primaria-2: #54acbf;
+    --cor-primaria-3: #26658c;
+    --cor-primaria-4: #023859;
+    --cor-primaria-5: #011c40;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'amiri', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
