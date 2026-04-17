@@ -10,6 +10,8 @@
     --cor-primaria-3: #26658c;
     --cor-primaria-4: #023859;
     --cor-primaria-5: #011c40;
+
+    --fundo: #d9edff;
 }
 
 *{
@@ -21,8 +23,13 @@
 
 a{
     text-decoration: none;
+    color: #023859;
 }
 
 li{
     list-style: none;
+}
+
+body{
+    background-color: var(--fundo);
 }

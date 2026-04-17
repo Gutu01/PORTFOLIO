@@ -1,8 +1,8 @@
 /*  padding = espaçamento 
     z-index é em que camada ele está */
 header{
-    background-color: var(--cor-primaria-5);
     width: 100%;
+    display: flex;
     justify-content: center;
     padding:28px 8%;
     top:0;
@@ -11,24 +11,23 @@ header{
 }
 
 .navbar{
-    
-    background-color: var(--cor-primaria-2);
-    width: 20%;
+    width: 250px;
     padding-top: .5%;
     padding-bottom: .5%;
     display: flex;
     justify-content: center;
     height: 20%;
+    border-radius: 8px;
+    background-color: rgb(95, 95, 109, .001); 
+    backdrop-filter: blur(12px);          /* efeito vidro */
+    -webkit-backdrop-filter: blur(12px); 
 }
 
 /*  O gap é espaçamento entre */
 .nav-list{
-    background-color: var(--cor-primaria-3);
     display:flex;
     gap: 40px;
 }
 
 .menu-bar{
-
-    background-color: aliceblue;
 }
