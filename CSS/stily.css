@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @import url('menu.css');
+@import url('home.css');
+@import url('sobre.css');
+@import url('projetos.css');
+@import url('rodape.css');
 
 
 /* Variáveis de cor do sistema. */
@@ -11,7 +15,7 @@
     --cor-primaria-4: #023859;
     --cor-primaria-5: #011c40;
 
-    --fundo: #d9edff;
+    --cor-fundo: #cee8ff;
 }
 
 *{
@@ -21,9 +25,9 @@
     font-family: 'amiri', sans-serif;
 }
 
-a{
+a, p, h1, h2, n{
     text-decoration: none;
-    color: #023859;
+    color: #ffffff;
 }
 
 li{
@@ -31,5 +35,12 @@ li{
 }
 
 body{
-    background-color: var(--fundo);
+    background-color: var(--cor-primaria-4);
+}
+
+
+@media screen and(width:700px){
+    header{
+        display: none;
+    }
 }

@@ -19,15 +19,24 @@ header{
     height: 20%;
     border-radius: 8px;
     background-color: rgb(95, 95, 109, .001); 
-    backdrop-filter: blur(12px);          /* efeito vidro */
+    backdrop-filter: blur(12px);          
     -webkit-backdrop-filter: blur(12px); 
 }
 
-/*  O gap é espaçamento entre */
+/*  O gap é espaçamento entre linhas :) Topzera 😎*/
 .nav-list{
     display:flex;
     gap: 40px;
 }
 
-.menu-bar{
+.nav-list:hover{
+    color: var(--cor-primaria-4);
+}
+
+#sobre a:hover{
+    color: var(--cor-primaria-1);
+}
+
+#contato a:hover{
+    color: var(--cor-primaria-1);
 }

@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="JS/aviso.js"></script>
+
     <title>Meu portfólio</title>
 
     <link rel="stylesheet" href="CSS/stily.css">
@@ -15,61 +22,127 @@
         <nav class="navbar">
             <div class="menu-bar">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="">Sobre</a></li>
-                    <li class="nav-item"><a href="">Projetos</a></li>
-                    <li class="nav-item"><a href="">Contato</a></li>
+                    <li class="nav-item" id="sobre"><a href="#sobre">Sobre</a></li>
+                    <li class="nav-item" id="projetos"><a href="#projetos">Projetos</a></li>
+                    <li class="nav-item" id="contato"><a href="#contato">Contato</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main class="content">
-        <section class="content">
-            <h1 class="title">Engenheiro de IA</h1>
+        <section class="home">
+            <div class="principal">
+                <h1 class="title">Engenheiro de IA</h1>
+                <h2 class="title-name">Gustavo Martins Villa</h2>
+            </div>
+            <div class="foto">
+                <img src="IMG/foto-apresentacao.jpg" alt="">
+            </div>
         </section>
     </main>
 
+    <section class="sobre" id="sobre"> 
+        <div class="foto-profissional">
+            <img src="IMG/foto-profissional.jpg" alt="">
+            
+                <p class="descricao">Engenheiro de IA cursando análise e desenvolimento de sistemas e fabrica de software</p>
+        </div>   
+
+        <div class="habilidades">
+
+            <p>ADS - 50% de conclusão</p>
+
+            <div class="barra1-progresso">
+                <div class="barra1">
+                    <div class="progresso1"></div>
+                </div>
+            </div>    
+                
+            <p>FABRICA DE SOFTWARE - 40% de conclusão</p>
+
+            <div class="barra2-progresso">
+                <div class="barra2">
+                    <div class="progresso2"></div>
+                </div>
+            </div>
+
+            <p>HABILIDADES</p>
+            <div class="cards">
+                
+                <div class="card">
+                    <img src="IMG/python.png" alt="" id="python">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/html.png" alt="" id="html">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/css.png" alt="" id="css">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/js.png" alt="" id="js">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/php.png" alt="" id="php">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/banco.png" alt="" id="banco">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/c.png" alt="" id="c">
+                </div>
+
+                <div class="card">
+                    <img src="IMG/cisco.png" alt="" id="cisco">
+                </div>
+                
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projeto" id="projetos">
+
+        <div class="descricao">
+            <p>O sistema do ParkTecCG tem como finalidade otimizar o processo de mentorias entre statups e mentores e na área administrativa da empresa.</p><br>
+            <n>Tecnologias utilizadas</n>
+            <n>+ Figma</n><br><br>
+            <a href="https://www.figma.com/proto/sas3H1AvEXKwBKPjZ7aBw4/ParkTecCG---SGR?node-id=7605-11661&t=LGbE6i2WkGwgonDZ-0&scaling=contain&content-scaling=fixed&page-id=409%3A195&starting-point-node-id=7605%3A11661&show-proto-sidebar=1&hide-ui=1" class="botao" target="_blank" onclick="alerta()">Veja o projeto!</a>
+        </div>
+
+        
+
+        <div class="projetos">
+            <div class="nome-projeto">
+                <h1 id="nome-projeto">Protótipo ParkTecCG</h1>
+            </div>
+            
+            <div class="foto-projeto">
+                <img src="IMG/parkteccg.png" alt="">
+            </div>            
+        </div>
+
+    </section>
 
 
-    <p>Hello WorldHello WorldHello WorldHello WorldHelHello WorldHello WorldHello WorldHello WorldHelHello WorldHello WorldHello WorldHello WorldHelHello WorldHello WorldHello WorldHello WorldHelHello WorldHello WorldHello WorldHello WorldHelHello WorldHello WorldHello WorldHello WorldHel</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
+    <footer class="rodape" id="contato">
+        <div class="rodape-itens">
+            <span class="copyright">
+                &copy 2026 Gustavo Martins Villa
+            </span>
+            <div class="social-botoes">
+                <a href="https://www.linkedin.com/in/gustavo-martins-villa-855a20280/" target="_blank" onclick="alerta()"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Gutu01" target="_blank" onclick="alerta()"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
