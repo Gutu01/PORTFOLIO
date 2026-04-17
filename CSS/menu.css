@@ -29,8 +29,8 @@ header{
     gap: 40px;
 }
 
-.nav-list:hover{
-    color: var(--cor-primaria-4);
+.nav-list a:hover{
+    color: var(--cor-primaria-1);
 }
 
 #sobre a:hover{
